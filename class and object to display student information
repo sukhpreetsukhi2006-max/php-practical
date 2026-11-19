@@ -1,0 +1,27 @@
+<?php
+class Student
+{
+    public $rollno;
+    public $name;
+    public $course;
+    public $marks;
+
+    function display()
+    {
+        echo "Student Roll Number: " . $this->rollno . "<br>";
+        echo "Student Name: " . $this->name . "<br>";
+        echo "Course: " . $this->course . "<br>";
+        echo "Marks: " . $this->marks . "<br>";
+    }
+}
+
+$s1 = new Student();
+
+$s1->rollno = 101;
+$s1->name = "Rahul";
+$s1->course = "BCA";
+$s1->marks = 85;
+
+
+$s1->display();
+?>
