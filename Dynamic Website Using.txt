@@ -1,0 +1,51 @@
+ 
+
+   //1. header.php
+    php
+
+
+    <html>
+    <head>
+        <title>My Dynamic Website</title>
+    </head>
+    <body>
+
+    <h1 align="center">Welcome to My Website</h1>
+    <hr>
+
+    //2. nav.php
+    php
+
+
+    <div align="center">
+        <a href="index.php">Home</a> |
+        <a href="about.php">About Us</a>
+    </div>
+    <hr>
+
+    //3. footer.php
+    php
+
+
+    <hr>
+    <footer align="center">
+        <p>Copyright &copy; 2026 My Website</p>
+    </footer>
+
+    </body>
+    </html>
+
+   // 4. index.php
+    php
+
+
+    <?php
+    include 'header.php';
+    include 'nav.php';
+    ?>
+
+    <h2>Home Page</h2>
+    <p>Welcome to the home page of our website.</p>
+
+    <?php
+    include 'footer.php';
